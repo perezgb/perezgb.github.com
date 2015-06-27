@@ -9,7 +9,7 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Gabriel Perez
-tagline: So much stuff, so little time
+tagline: 
 author :
   name : Gabriel Perez
   email : gabe@perezgb.com
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : perezgb
     livefyre :
       site_id : 123
     intensedebate :
@@ -93,7 +93,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : jekyllbootstrap
+      short_name : perezgb
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -104,7 +104,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-532603-7'
     getclicky :
       site_id : 
     mixpanel :
