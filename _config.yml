@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: rouge
+highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -13,10 +13,13 @@ tagline:
 author :
   name : Gabriel Perez
   email : gabe@perezgb.com
+  email_md5: gabe@perezgb.com
   github : perezgb
   twitter : perezgb
   feedburner : feedname
+  bio : I'm a software developer and I love what I do. Maybe even a little bit too much according to my wife :-)
 
+paginate: 10
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
