@@ -348,7 +348,7 @@ public class MainWindowViewModel : INotifyPropertyChanged
         #endregion
 }</pre>
 <p>Here is the result:</p>
-<p><img src="http://www.gbogea.com/upload/MultiSelectWindow.png" alt="MultiSelectWindow" /></p>
+<p><img src="http://www.perezgb.com/upload/MultiSelectWindow.png" alt="MultiSelectWindow" /></p>
 <p>The solution was really simple after I though of the SelectionList. I wanted however to do a little bit more. Instead of the simple Listbox I had to build a list of CheckBoxes. To good thing is that as far as the ViewModel is concerned we are all set, there's no need to change anything. All we need to change is the View (which is a Window in our case) using a DataTemple in the ListBox ItemTemplate to place a Checkbox instead of regular item.</p>
 <pre class="brush: xhtml" title="code">
 &lt;ListBox.ItemTemplate&gt;
@@ -385,7 +385,7 @@ public class MainWindowViewModel : INotifyPropertyChanged
         &lt;/Setter&gt;
     &lt;/Style&gt;
 &lt;/ListBox.ItemContainerStyle&gt;</pre>
-<p><img src="http://www.gbogea.com/upload/CheckBoxListError.png" alt="CheckBoxListError" /></p>
+<p><img src="http://www.perezgb.com/upload/CheckBoxListError.png" alt="CheckBoxListError" /></p>
 <p>Now we're done! Here is the final code for the view:</p>
 <pre class="brush: xhtml" title="code">
 &lt;Window x:Class=&quot;MvvmChecklistBox.MainWindow&quot;

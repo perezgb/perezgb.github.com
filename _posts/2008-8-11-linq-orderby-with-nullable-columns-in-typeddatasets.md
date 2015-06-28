@@ -11,7 +11,7 @@ comments: true
 
 <div id="post">
 <p>This article shows a tip on how you can do sorting using the LINQ OrderBy with Typed DataSets.  For our example I&rsquo;ll use the the Northwind Database and it&rsquo;s Customers table.  I&rsquo;ll use two columns in this table. One is the ContactName which doesn&rsquo;t have any null values and the Region column which has null values.</p>
-<p><img alt="" src="http://www.gbogea.com/upload/CustomersDataTable.jpg" /></p>
+<p><img alt="" src="http://www.perezgb.com/upload/CustomersDataTable.jpg" /></p>
 <p>First lets populate the DataTable we want to query using <a href="http://msdn.microsoft.com/en-us/library/bz9tthwx(VS.80).aspx">TableAdapter</a>  I had previously generated in the DataSet.</p>
 <pre class="brush: csharp" title="code">
 CustomersTableAdapter ta = new CustomersTableAdapter();

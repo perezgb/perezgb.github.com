@@ -37,7 +37,7 @@ charsMapping.Add(&quot;&amp;euro;&quot;, @&quot;\'80&quot;);
 <p>Here is the expression to find the matches within Visual Studio: __  {\\&rsquo;:a:a}{.<ins>}{&amp;:a</ins>;}{\\par}</p>
 <p><i>Each pair of { } is a group to be matched. The difference is that the usual  \w (letters or numbers) is :a. In my expression I have four groups the fist is  the match for the <span class="caps">RTF</span> character and the third is the  match for the <span class="caps">HTML</span> code. Knowing that the Replace  expression is as follows: __charsMapping.Add(&rdquo;\3&rdquo;, @&rdquo;\1&rdquo;);</i></p>
 <p>Here is how it would look like in VS:</p>
-<p><img src="http://wwww.gbogea.com/upload/regexFindReplace.jpg" alt="" /></p>
+<p><img src="http://wwww.perezgb.com/upload/regexFindReplace.jpg" alt="" /></p>
 <p>Doing this is much easier then creating the dictionary by hand of even  writing a console app to do the replace. Sure I could have used some other text  tool to do the same but it wouldn&rsquo;t be as much fun as figuring out how to do it  in VS.</p>
 <p>Here is the final output:</p>
 <pre class="brush: csharp" title="code">

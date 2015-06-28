@@ -12,7 +12,7 @@ comments: true
 <div id="post">
 <p>When I decided to write my own blog and leave Mephisto one of the few requirements I felt were really important was to maintain the url pattern I was already using. My articles had url's like this:<br />
 <br />
-www.gbogea.com/year/month/day/permalink<br />
+www.perezgb.com/year/month/day/permalink<br />
 <br />
 When I first looked up url rewriting in google I found a great <a href="http://weblogs.asp.net/scottgu/archive/2007/02/26/tip-trick-url-rewriting-with-asp-net.aspx">article by ScottGu</a> that really suited my needs. I'm using IIS7 on my develpment machine and I thought I was also using it on the hosting service I contracted. ScottGu's post shows a really simple way to do rewriting when using IIS7. All you need is the <a href="http://urlrewriter.net/">UrlRewriter.Net module</a> and a few configurations to your web.config.<br />
 Checkout SocottGu's post for the whole config, here I'll only show you the pattern I needed to be compatible with the articles url in Mephisto. Here it is: </p>
@@ -30,7 +30,7 @@ RewriteEngine on
 RewriteBase /
 RewriteRule ((19|20)\d\d)/(0?[1-9]|1[012])/(0?[1-9]|[12][0-9]|3[01])/(.+)$ /PostDetail.aspx?year=$1&amp;month=$3&amp;day=$4&amp;permalink=$5 [NC,L]</pre>
 <p><br />
-The rewrite rule is basically translating the pattern I'm using (www.gbogea.com/year/month/day/permalink) to the real pattern that the ASP.NET applcation understands (PostDetail.aspx?year=YYYY&amp;month=MM&amp;day=DD&amp;permalink=WHATERVER).<br />
+The rewrite rule is basically translating the pattern I'm using (www.perezgb.com/year/month/day/permalink) to the real pattern that the ASP.NET applcation understands (PostDetail.aspx?year=YYYY&amp;month=MM&amp;day=DD&amp;permalink=WHATERVER).<br />
 <br />
 The options and the end are also very important. NC means Case Insensitive. L means that no other subsquent rule should be processed, it stops here. You will find a lot of examples that use an R (which means Redirect) however this was not suited to my case. The redirect would be done to the new URL and then the url shown in the browser would be the ASP.NET url and not mine.<br />
 <br />

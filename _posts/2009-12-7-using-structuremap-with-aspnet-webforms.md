@@ -11,7 +11,7 @@ comments: true
 
 <div id="post">
 <p>StrutctureMap is one of the most popular IoC containers in .NET but I had never tried it out. You can learn all about StructureMap from the documentation and the tutorials already available so I won't try to explain what it is and how it works. Instead I'll show you my experience on how to use it with ASP.NET WebForms.</p>
-<p>To test StructureMap I decided to use it in <a href="http://speakoutblog.codeplex.com/">my blog</a> which is a simple WebForms application that is <a href="http://www.gbogea.com/2009/11/30/from-entity-framework-to-nhibernate">now using NHibernate</a>. The objective is use in the code only the interfaces for my Services and DAOs. Their implementation should be injected.</p>
+<p>To test StructureMap I decided to use it in <a href="http://speakoutblog.codeplex.com/">my blog</a> which is a simple WebForms application that is <a href="http://www.perezgb.com/2009/11/30/from-entity-framework-to-nhibernate">now using NHibernate</a>. The objective is use in the code only the interfaces for my Services and DAOs. Their implementation should be injected.</p>
 <p>The first step is to create a class that will be responsible for initializing the IoC. I decided to create this class at the WebSite level in the App_Code folder because this class has dependencies on all the other assemblies. Since the WebSite has to reference all these assemblies I figured this would be the best place. Here is the code for the class:</p>
 <pre class="brush: csharp" title="code">
 public class IocConfigurator

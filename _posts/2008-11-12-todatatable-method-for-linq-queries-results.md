@@ -72,7 +72,7 @@ var query = from p in dtPerson.AsEnumerable()
                  Job = j.Field&lt;string&gt;(&quot;Position&quot;)
              };
 </pre>
-<p>Notice that the result of the query is an IEnumerable of an anonymous type with  three properties (Id, Name and Position) which is a merge of our two DataTables  data. Now for the helper method that will convert this result to a new  DataTable. The base of this idea is in my previous article on using <a href="http://www.gbogea.com/2008/11/8/reflection-on-anonymous-types">reflection  on anonymous types</a>. I&rsquo;ll use this principle to inspect the properties of the  anonymous type and create new DataColumns for the new DataTable. After that all  it&rsquo;s needed is iterating over the results creating new DataRows. Here&rsquo;s the  method:</p>
+<p>Notice that the result of the query is an IEnumerable of an anonymous type with  three properties (Id, Name and Position) which is a merge of our two DataTables  data. Now for the helper method that will convert this result to a new  DataTable. The base of this idea is in my previous article on using <a href="http://www.perezgb.com/2008/11/8/reflection-on-anonymous-types">reflection  on anonymous types</a>. I&rsquo;ll use this principle to inspect the properties of the  anonymous type and create new DataColumns for the new DataTable. After that all  it&rsquo;s needed is iterating over the results creating new DataRows. Here&rsquo;s the  method:</p>
 <pre class="brush: csharp" title="code">
 public static DataTable ToDataTable(this IEnumerable objectList)
 {
@@ -120,5 +120,5 @@ public static DataTable ToDataTable(this IEnumerable objectList)
     return dt;
 }
 </pre>
-<p>That&rsquo;s it. The returning DataTable will have three columns (int Id, string Name,  string Position). If you want you can download the code for the class <a href="http://www.gbogea.com/upload/LinqHelper.cs">here</a>. In this  code for download I transformed the ToDataTable method into an extension method.</p>
+<p>That&rsquo;s it. The returning DataTable will have three columns (int Id, string Name,  string Position). If you want you can download the code for the class <a href="http://www.perezgb.com/upload/LinqHelper.cs">here</a>. In this  code for download I transformed the ToDataTable method into an extension method.</p>
 </div>

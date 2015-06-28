@@ -48,11 +48,11 @@ class Program
     }
 }</pre>
 <p>To compare the execution of each provider I ran this code using the <a href="http://www.microsoft.com/visualstudio/en-us/">VS 2010</a> <a href="http://blogs.msdn.com/profiler/">Profiler</a>, which by the way is very cool. The visualization of the tests has improved a lot since VS 2008. Here are the results summary:</p>
-<p>&nbsp;<img alt="Profiler Summary" width="400" height="269" src="http://www.gbogea.com/upload/ProfilerOracleProviderSummary.JPG" /></p>
+<p>&nbsp;<img alt="Profiler Summary" width="400" height="269" src="http://www.perezgb.com/upload/ProfilerOracleProviderSummary.JPG" /></p>
 <p>&nbsp;As you can see there is a huge difference! The ODP.NET had less than 10% of the samples taken during processing while more than 90% were taken while running the method with the OracleClient provider. The report will also show you the information in more detail:</p>
-<p>&nbsp;<img alt="Main method details" width="400" height="268" src="http://www.gbogea.com/upload/ProfilerOracleProviderDetails.JPG" /></p>
+<p>&nbsp;<img alt="Main method details" width="400" height="268" src="http://www.perezgb.com/upload/ProfilerOracleProviderDetails.JPG" /></p>
 <p>And the coolest view of them all will even show the percentage used overlapping the code:</p>
-<p><img width="400" height="146" alt="" src="http://www.gbogea.com/upload/ProfilerOracleProviderCodeView.JPG" /></p>
+<p><img width="400" height="146" alt="" src="http://www.perezgb.com/upload/ProfilerOracleProviderCodeView.JPG" /></p>
 <p>Cool, right? I think so! Ok, now back to our tests... Before wrapping the post there is still one test I could do. I wanted to measure the execution time in seconds of each routine. To do this I used the Stopwatch class.</p>
 <pre title="code" class="brush: csharp">
 class Program

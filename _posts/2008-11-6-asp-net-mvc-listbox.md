@@ -12,7 +12,7 @@ comments: true
 <div id="post">
 <p>The Html.ListBox helper is a good choice if you need to represent  many-to-many relationships in a form.</p>
 <p>Lets say you have a many-to-many between the Posts table and the Categories  table. When you are creating a new post you need to select all the categories  that it belongs to. When you are editing a post you need to show the categories  it already belongs to in order to make a new selection (or not).</p>
-<p><img alt="" src="http://www.gbogea.com/upload/PostCategory.jpg" /></p>
+<p><img alt="" src="http://www.perezgb.com/upload/PostCategory.jpg" /></p>
 <p>&nbsp;The ListBox would allow you to make all the selections necessary, so the Action  and the View for the New Post would need something like this:</p>
 <p>Action:</p>
 <pre class="brush: csharp" title="code">

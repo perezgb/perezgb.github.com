@@ -12,7 +12,7 @@ comments: true
 <div id="post">
 <p>Recently I decided to change the data access layer in <a href="http://speakoutblog.codeplex.com/">my blog</a> from Entity Framework to NHibernate. In this post I'll tell you Why and How I did it.</p>
 <h2>The WHY</h2>
-<p>I still have some issues with the current version of the Entity Framework as I posted in the article <a href="http://www.gbogea.com/2009/04/22/mvc-storefront-migrating-to-the-entity-framework">MVC Storefront: Migrating to the Entity Framework</a>. Many of the things I wanted to do with the EF like using POCOs or LazyLoading will be possible in version 4. Until then I decided to give <a href="http://nhforge.org/">NHibernate </a>a shot. I figured it wouldn't be so hard since I already had some knowledge with Hibernate from my Java days.</p>
+<p>I still have some issues with the current version of the Entity Framework as I posted in the article <a href="http://www.perezgb.com/2009/04/22/mvc-storefront-migrating-to-the-entity-framework">MVC Storefront: Migrating to the Entity Framework</a>. Many of the things I wanted to do with the EF like using POCOs or LazyLoading will be possible in version 4. Until then I decided to give <a href="http://nhforge.org/">NHibernate </a>a shot. I figured it wouldn't be so hard since I already had some knowledge with Hibernate from my Java days.</p>
 <h2>The HOW</h2>
 <p>&nbsp;The migration was not that hard. NHibernate has a great <a href="http://nhforge.org/doc/nh/en/index.html">documentation </a>with good examples. I also used the <a href="http://www.manning.com/kuate/">NHibernate in Action</a> book which I highly recommend. It is only 400 pages and very to the point.</p>
 <h3>How the Project is Structured</h3>
@@ -23,7 +23,7 @@ comments: true
 <p><strong>SpeakOut.Lib</strong>: Here are all the utility classes, base classes for the pages and control and classes with extension methods.</p>
 <h3>The Model</h3>
 <p>This is the class diagram for the classes in the model. NHibernate makes populating the dependencies show in the diagram really easy, actually you don't do anything and you still get the benefit of lazy loading for free. This is something that wasn't easy in the EF.</p>
-<p><img width="600" src="http://www.gbogea.com/upload/SpeakoutModel.png" alt="" /></p>
+<p><img width="600" src="http://www.perezgb.com/upload/SpeakoutModel.png" alt="" /></p>
 <h3>The Mapping Files</h3>
 <p>Here are the mapping files for my entities.</p>
 <p><strong>Author</strong></p>
@@ -140,7 +140,7 @@ comments: true
 <h3>&nbsp;The Data Access</h3>
 <p>&nbsp;In the data access layer I decided to drop the Repository I was using to go with simple DAOs. The main reason I did it was to test NHibernate as recommended by it's more experienced users. I really think I wouldn't get a lot from the Repository.</p>
 <p>Here is the class diagram for the DAOs interfaces:</p>
-<p><img width="600" src="http://www.gbogea.com/upload/SpeakoutInterfaces.png" alt="" /><br />
+<p><img width="600" src="http://www.perezgb.com/upload/SpeakoutInterfaces.png" alt="" /><br />
 <br />
 One of the approaches suggested in the NHibernate in Action book is to use a base DAO that encapsulate the common behavior in all NHibernate DAOs. Here is the code for the this class:<br />
 &nbsp;</p>

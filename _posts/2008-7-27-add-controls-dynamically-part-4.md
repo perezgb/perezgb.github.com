@@ -14,11 +14,11 @@ comments: true
 <p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">The part 3 of this series was getting a bit long for my taste so I decided to break it in 2. Here we&rsquo;ll continue dealing with the controls added dynamically to our page only now we&rsquo;re going to access them by ID.</p>
 Related posts:
 <ul>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/27/add-controls-dynamically-part-5">Add Controls Dynamically &ndash; Part 5</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/27/add-controls-dynamically-part-5">Add Controls Dynamically &ndash; Part 5</a></li>
 </ul>
 <h2 style="margin: 0px 0px 1em; padding: 0px; font-weight: normal; font-family: 'Trebuchet MS',Verdana,sans-serif; font-size: 150%; color: rgb(125, 0, 10);">Naming the controls</h2>
 <p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">By now you have noticed that we haven&rsquo;t explicitly set the ID of any of our controls. Of course the controls have ID&rsquo;s but they are defined automatically by the Asp.Net framework when the controls are instantiated. The reason this works is because the framework will create the names consistently the same, again and again as long as you create the controls always in the same order (we are doing that).</p>

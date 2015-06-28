@@ -86,7 +86,7 @@ public class PERSONTableAdapterExtended : PERSONTableAdapter
         }
     }
 </pre>
-<p><img src="http://www.gbogea.com/upload/TableAdapterExtended3.jpg" alt="" /></p>
+<p><img src="http://www.perezgb.com/upload/TableAdapterExtended3.jpg" alt="" /></p>
 <h2>Step Three</h2>
 <p>Now you&rsquo;ll use only the PERSONTableAdapterExtended class instead of the  PERSONTableAdapter generated class. This will protect your code from changes  when the DataSet is regenerated</p>
 </div>

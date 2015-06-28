@@ -60,9 +60,9 @@ class StackTraceTest
 </pre>
 <p>Each method displays a message on the console letting you know that it has been invoked. When the program gets to Method4 it will print the name of the methods on the stack.</p>
 <p>Here is the output:</p>
-<p><img src="http://www.gbogea.com/upload/StackTraceOutput.jpg" alt="" /></p>
+<p><img src="http://www.perezgb.com/upload/StackTraceOutput.jpg" alt="" /></p>
 <p>Put a break point on the end of the Method4 and you can take a look at VisualStudios CallStack window to compare with the console output.</p>
-<p><img src="http://www.gbogea.com/upload/CallStack.jpg" alt="" /></p>
+<p><img src="http://www.perezgb.com/upload/CallStack.jpg" alt="" /></p>
 <p>As a test you might want to move the StackTrace code to the other methods to see that it will show all the method that led to method currently executing.</p>
 <p>For more information look at the <a href="http://msdn.microsoft.com/pt-br/library/system.diagnostics.stackframe.aspx">StackFrame</a> and <a href="http://msdn.microsoft.com/pt-br/library/system.reflection.methodbase.aspx">MethodBase</a> classes at <span class="caps">MSDN</span>.</p>
 </div>

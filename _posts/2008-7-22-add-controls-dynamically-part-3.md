@@ -13,13 +13,13 @@ comments: true
 <p>On the last article of this series we saw how we could assign event handlers  to dynamically created controls and how the <a href="http://www.google.com.br/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fsystem.web.ui.webcontrols.placeholder.aspx&amp;ei=1LyESM-HHZyQ8wTtoezkCw&amp;usg=AFQjCNHOxV3c6z18CTHqCAGcYa8_ySR--Q&amp;sig2=Tg1qyS0ac61UNUbmV5q4Wg">PlaceHolder  control</a> could help us add the controls in a more organized way.</p>
 <p>Related  posts:</p>
 <ul>
-    <li><a href="http://www.gbogea.com/2008/7/6/add-controls-dynamically">Add  Controls Dynamically &ndash; Part 1</a></li>
-    <li><a href="http://www.gbogea.com/2008/7/14/add-controls-dynamically-part-2">Add  Controls Dynamically &ndash; Part 2</a></li>
-    <li><a href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-3">Add  Controls Dynamically &ndash; Part 3</a></li>
-    <li><a href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-4">Add  Controls Dynamically &ndash; Part 4</a></li>
-    <li><a href="http://www.gbogea.com/2008/7/27/add-controls-dynamically-part-5">Add  Controls Dynamically &ndash; Part 5</a></li>
+    <li><a href="http://www.perezgb.com/2008/7/6/add-controls-dynamically">Add  Controls Dynamically &ndash; Part 1</a></li>
+    <li><a href="http://www.perezgb.com/2008/7/14/add-controls-dynamically-part-2">Add  Controls Dynamically &ndash; Part 2</a></li>
+    <li><a href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-3">Add  Controls Dynamically &ndash; Part 3</a></li>
+    <li><a href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-4">Add  Controls Dynamically &ndash; Part 4</a></li>
+    <li><a href="http://www.perezgb.com/2008/7/27/add-controls-dynamically-part-5">Add  Controls Dynamically &ndash; Part 5</a></li>
 </ul>
-<p>In this article I want to show how you can keep a reference of a dynamically  created control so that you can use it later somewhere else in your code. For  this I&rsquo;ll continue using the code created add the end of the <a href="http://www.gbogea.com/2008/7/14/add-controls-dynamically-part-2">last  article of this series</a>.</p>
+<p>In this article I want to show how you can keep a reference of a dynamically  created control so that you can use it later somewhere else in your code. For  this I&rsquo;ll continue using the code created add the end of the <a href="http://www.perezgb.com/2008/7/14/add-controls-dynamically-part-2">last  article of this series</a>.</p>
 <p>Now that you can add as many TextBoxes to the form as you want let&rsquo;s say that  you want to use them to input numeric values and then add up all the values for  display. The first thing then is to decide where do we want to keep the  reference to the controls. I chose to use a generic list of TextBox  (List<textbox>) but you could have chosen another structure that you feel more  comfortable with.</textbox></p>
 <pre title="code" class="brush: csharp">
 System.Collections.Generic.List&lt;TextBox&gt; controlsList = new System.Collections.Generic.List&lt;TextBox&gt;();

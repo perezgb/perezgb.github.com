@@ -18,5 +18,5 @@ comments: true
     <li>Now select the Default Database you want.</li>
 </ol>
 <p>That&rsquo;s it!</p>
-<p><img src="http://www.gbogea.com/upload/SQLServer.jpg" alt="" /></p>
+<p><img src="http://www.perezgb.com/upload/SQLServer.jpg" alt="" /></p>
 </div>

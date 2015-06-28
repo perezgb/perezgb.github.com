@@ -159,10 +159,10 @@ Page.Form.Controls.Add(tb);
 <p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">Now you are able to add any number of controls keeping the state of them all. On my next post I&rsquo;ll keep working with dynamic created controls so stay tuned.</p>
 Related posts:
 <ul>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
 </ul>
 </span></p>
 </span></p>

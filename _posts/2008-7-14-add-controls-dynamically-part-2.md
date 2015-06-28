@@ -11,15 +11,15 @@ comments: true
 
 <div id="post">
 <p><span style="border-collapse: separate; color: rgb(102, 102, 102); font-family: Verdana; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" class="Apple-style-span">
-<p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">This post continues what&rsquo;s been done in the<span class="Apple-converted-space">&nbsp;</span><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/6/add-controls-dynamically">Part 1</a></p>
+<p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">This post continues what&rsquo;s been done in the<span class="Apple-converted-space">&nbsp;</span><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/6/add-controls-dynamically">Part 1</a></p>
 <p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">On my last post I talked about creating controls dynamically in asp.net. In this post I&rsquo;m going to continue with common issues or needs that users have based on what I noticed on the<span class="Apple-converted-space">&nbsp;</span><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://forums.asp.net/">Asp.Net Forums</a></p>
 Related posts:
 <ul>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
-    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.gbogea.com/2008/7/27/add-controls-dynamically-part-5">Add Controls Dynamically &ndash; Part 5</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/6/add-controls-dynamically">Add Controls Dynamically &ndash; Part 1</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/14/add-controls-dynamically-part-2">Add Controls Dynamically &ndash; Part 2</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-3">Add Controls Dynamically &ndash; Part 3</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/22/add-controls-dynamically-part-4">Add Controls Dynamically &ndash; Part 4</a></li>
+    <li><a style="border-bottom: 1px dotted rgb(187, 187, 187); text-decoration: none; color: rgb(125, 0, 10);" href="http://www.perezgb.com/2008/7/27/add-controls-dynamically-part-5">Add Controls Dynamically &ndash; Part 5</a></li>
 </ul>
 <p style="margin: 0px 0px 1.5em; padding: 0px; font-weight: normal;">First I want to talk about assigning events to the controls that we are creating, this is a simple task but still and important topic.</p>
 <h3 style="border-bottom: 1px solid rgb(234, 234, 234); margin: 1.2em 0px 1em; padding: 0px 0px 0.2em; font-weight: normal; font-family: 'Trebuchet MS',Verdana,sans-serif; font-size: 130%; color: rgb(125, 0, 10);">Adding Events</h3>
