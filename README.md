@@ -76,3 +76,9 @@ The documentation website at <http://jekyllbootstrap.com> is maintained at https
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+![dataframe-structure-diagram](https://github.com/user-attachments/assets/4f5ff0d1-9821-48c1-b032-297c2dc084b7)
+
+![series-vs-dataframe-diagram](https://github.com/user-attachments/assets/1d21b814-5bed-446c-9dfd-5382e671c58a)
+
+
+
